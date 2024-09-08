@@ -28,7 +28,7 @@ For the purposes of this Privacy Policy:
 
 
 
-- __Company__ (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to CV. Malibu Anugerah Putra, Jl. Kapt. Ali Mahmudi, Bacin, Kec. Bae, Kabupaten Kudus, Jawa Tengah 59325.
+- __Company__ (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to CV. Malibu Anugerah Putra, located at Jl. Kapt. Ali Mahmudi, Bacin, Kec. Bae, Kabupaten Kudus, Jawa Tengah 59325, and registered with TIN/NPWP : 80.491.450.5-506.000.
 
 
 
