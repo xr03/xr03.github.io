@@ -312,7 +312,17 @@ header {
 }
 
 .btn-xl {
-    padding: 15px 30px;
+    width: 265px; /* Sesuaikan dengan ukuran yang diinginkan */
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 14px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.btn-xl i {
+    margin-right: 8px;
 }
 
 // Contact
