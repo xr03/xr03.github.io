@@ -1,7 +1,7 @@
 ---
 layout: none
 title: Count Down
-permalink: /countdown/
+permalink: /countdown1214/
 ---
 
 <div id="countdown-container">
@@ -17,23 +17,23 @@ permalink: /countdown/
     var now = new Date();
     var targetTime;
 
-    // Get today's 10:00 and 14:00
-    var today10am = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 0, 0);
+    // Get today's 12:00 and 14:00
+    var today12pm = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 0);
     var today2pm = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 0, 0);
 
-    // Determine the target time based on the current time
-    if (now >= today10am && now < today2pm) {
-      document.getElementById("status").innerHTML = "Flash Sale Now!";
-      document.getElementById("countdown-text").style.display = "none";
-      document.getElementById("countdown-message").style.display = "none";
-      return; // Exit since no countdown needed
-    } else if (now < today10am) {
-      targetTime = today10am.getTime(); // Count down to today's 10:00
-      document.getElementById("status").innerHTML = "Flash Sale sebentar lagi !";
+    if (now >= today12pm && now < today2pm) {
+      // Between 12:00 and 14:00
+      targetTime = today2pm.getTime(); // Count down to 14:00
+      document.getElementById("status").innerHTML = "FlashSale berakhir dalam..";
       document.getElementById("countdown-message").style.display = "block";
     } else {
-      targetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 10, 0, 0).getTime(); // Count down to 10:00 tomorrow
-      document.getElementById("status").innerHTML = "Flash Sale sebentar lagi !";
+      // Outside of 12:00 to 14:00, count down to 12:00 the next day
+      if (now < today12pm) {
+        targetTime = today12pm.getTime(); // Count down to today's 12:00
+      } else {
+        targetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 12, 0, 0).getTime(); // Count down to tomorrow's 12:00
+      }
+      document.getElementById("status").innerHTML = "FlashSale segera hadir..";
       document.getElementById("countdown-message").style.display = "block";
     }
 
