@@ -48,7 +48,7 @@ permalink: /countdown1214/
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Output the result in an element with id="countdown-text"
-      document.getElementById("countdown-text").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+      document.getElementById("countdown-text").innerHTML = hours + "j " + minutes + "m " + seconds + "d ";
 
       // If the countdown is finished, refresh to restart
       if (distance < 0) {
