@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: none
 title: Count Down
 permalink: /countdown/
 ---
@@ -29,11 +29,11 @@ permalink: /countdown/
       return; // Exit since no countdown needed
     } else if (now < today10am) {
       targetTime = today10am.getTime(); // Count down to today's 10:00
-      document.getElementById("status").innerHTML = "Flash Sale sebentar lagi!";
+      document.getElementById("status").innerHTML = "Flash Sale sebentar lagi !";
       document.getElementById("countdown-message").style.display = "block";
     } else {
       targetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 10, 0, 0).getTime(); // Count down to 10:00 tomorrow
-      document.getElementById("status").innerHTML = "Flash Sale sebentar lagi!";
+      document.getElementById("status").innerHTML = "Flash Sale sebentar lagi !";
       document.getElementById("countdown-message").style.display = "block";
     }
 
