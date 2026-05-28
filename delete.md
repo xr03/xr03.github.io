@@ -11,7 +11,7 @@ Anda dapat menarik persetujuan Anda atas pengumpulan, perolehan, penyimpanan, pe
 
 Anda dapat meminta penghapusan data pribadi dengan melakukan permintaan pembatalan/penghapusan akun Anda yang terdaftar di sistem kami dengan cara-cara berikut:
 
-- Pada aplikasi Tokokuota silakan buka menu Profile lalu pilih pada bagian Hapus Akun
+- Pada aplikasi Mitra MLB silakan buka menu Profile lalu pilih pada bagian Hapus Akun
 
 <img src="/img/hapusakun/1.png" alt="Hapus Akun 1" width="200">
 
